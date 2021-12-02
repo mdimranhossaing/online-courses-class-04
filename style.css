@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+}
+ul {
+  list-style: square;
+}
+
+ol {
+  background-color: bisque;
+  list-style-type: upper-roman;
+  list-style-position: outside;
+  list-style-image: url();
+  /* list-style: upper-roman inside url(); */
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+table {
+  border: 1px solid blue;
+  width: 100%;
+}
+th {
+  border: 2px solid red;
+  background-color: bisque;
+}
+td {
+  border: 2px solid #000;
+  background-color: aqua;
+  padding: 5px 10px;
+}
+
+/* CSS Display */
+h1 {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  background-color: bisque;
+}
+span {
+  background-color: red;
+}
+
+/* Display Grid */
+/* Display Flex */
+
+/* CSS Max-Width */
+/* .box {
+  max-width: 800px;
+  max-height: 800px;
+  background-color: tomato;
+} */
+
+/* CSS Min-Width */
+/* .box {
+  background-color: yellowgreen;
+  width: 300px;
+} */
+
+/* CSS Box */
+.outer-box {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  margin: 50px auto;
+  border: 5px solid red;
+}
+.outer-box .inner-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+
+
+.box {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 10px 15px #777;
+}
+
+.box1 {
+  background-color: red;
+  left: 30px;
+  z-index: -1;
+}
+.box2 {
+  background-color: green;
+  left: 60px;
+  z-index: -2;
+}
+.box3 {
+  background-color: blue;
+  left: 90px;
+  z-index: -3;
+}
